@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<style>
+ * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a {
+  color: red;
+  font-size: 20px;
+}
+
+#header {
+  background: rgb(127, 255, 0);
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+#footer {
+  background: yellow;
+  display: flex;
+  justify-content: flex-end;
+  background: url("https://codeyogi.io/footer.jpg");
+  text-align: right;
+  font-size: 25px;
+}
+
+#header a + a,
+#footer a + a {
+  margin-left: 30px;
+}
+
+#header,
+#footer {
+  padding: 20px;
+}
+
+#main {
+  padding: 60px 0px 60px 20px;
+  box-sizing: border-box;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#header a {
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+button {
+  background: rgb(0, 255, 255);
+  padding: 2px 3px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+#container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  background: gray;
+  border: 4px solid black;
+  margin: 15px;
+  border-radius: 8px;
+  color: white;
+  max-width: 300px;
+}
+
+.card a {
+  background: rgb(51, 204, 51);
+  padding: 8px 20px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 999px;
+  color: white;
+  font-size: 15px;
+}
+
+.card>img {
+  width: 100%;
+}
+
+.card-body {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.you {
+  color: red;
+  font-size: 26px;
+  
+} 
+span {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: brown;
+}
+  
+</style>
+
+<body>
+<div id="container">
+  <div id="header">
+    <div>
+      <a href="" class="you"> Famous University <span>of Punjab </span></a>
+        </div>
+        </div>
+<div id="main">
+  <div class="card"> 
+    <img src="https://i.ibb.co/9VHY4NB/IMG-20241220-144300-068.jpg" alt="logo" />
+    <div class="card-body">
+      <h2> Indian Institute of Technology </h2>
+      <p> 
+        Established: 1997 <br>
+        Area: Rupnagar<br>
+        Highest Pck. : 12 LPA <br>
+        Average Pck. : 4 LPA
+      </p>
+    <a href="https://www.iitrpr.ac.in/"> Read More... </a>
+</div>
+</div>
+</div>
+<div id="main">
+  <div class="card">
+    <img src="https://i.ibb.co/R6rQs35/IMG-20241220-144620-036.jpg" alt="logo"/>
+    <div class="card-body">
+      <h2> Punjab University  </h2>
+      <p> 
+        Established: 1882 <br>
+        Area: Chandigarh <br>
+        Highest Pck. : 16 LPA <br>
+        Average Pck. : 5.2 LPA
+      </p>
+    <a href="https://puchd.ac.in/"> Read More... </a>
+</div>
+</div>
+</div>
+<div id="main">
+  <div class="card">
+    <img src="https://i.ibb.co/Xsc1K1R/IMG-20241220-144813-480.jpg" alt="logo" />
+    <div class="card-body">
+      <h2> Thaper University </h2>
+      <p> 
+        Established: 1956 <br>
+        Area: Patiala <br>
+        Highest Pck. : 39 LPA <br>
+        Average Pck. : 7 LPA
+      </p>
+    <a href="https://www.thapar.edu/"> Read More... </a>
+</div>
+</div>
+</div>
+<div id="main">
+  <div class="card">
+    <img src="https://i.ibb.co/FDMPb7Q/IMG-20241220-144914-911.jpg" alt="logo" />
+    <div class="card-body">
+      <h2> Guru Nanak Dev University </h2>
+      <p> 
+        Established: 1969 <br>
+        Area: Amritsar <br>
+        Highest Pck. : 14 LPA <br>
+        Average Pck. :  8 LPA
+      </p>
+    <a href="https://online.gndu.ac.in/"> Read More... </a>
+</div>
+</div>
+</div>
+<div id="main">
+  <div class="card">
+    <img src="https://i.ibb.co/WzhBn97/IMG-20241220-145003-490.jpg" alt="logo" />
+    <div class="card-body">
+      <h2> Punjab Agricultural University  </h2>
+      <p> 
+        Established: 1962 <br>
+        Area: Ludhiana <br>
+        Highest Pck. : 5 LPA <br>
+        Average Pck. : 3.5 LPA
+      </p>
+    <a href="https://www.pau.edu/"> Read More... </a>
+</div>
+</div>
+</div>
+<div id="main">
+  <div class="card">
+    <img src="https://i.ibb.co/dP0zMJ4/IMG-20241220-145115-829.jpg" alt="logo" />
+    <div class="card-body">
+      <h2> Dr.B.R Ambedkar National Institute of Technology   </h2>
+      <p> 
+        Established: 1987 <br>
+        Area: Jalandhar <br>
+        Highest Pck. : 43 LPA <br>
+        Average Pck. : 13 LPA
+      </p>
+    <a href="https://www.nitj.ac.in/"> Read More... </a>
+</div>
+</div>
+</div>
+<div id="main">
+  <div class="card">
+    <img src="https://i.ibb.co/BLm8pV1/IMG-20241220-145324-959.jpg" alt="logo" />
+    <div class="card-body">
+      <h2> Punjabi University   </h2>
+      <p> 
+        Established: 1962 <br>
+        Area: Patiala <br>
+        Highest Pck. : 20 LPA <br>
+        Average Pck. : 3.4 LPA
+      </p>
+    <a href="http://www.punjabiuniversity.ac.in/"> Read More... </a>
+</div>
+</div>
+</div>
+<div id="main">
+  <div class="card">
+    <img src="https://i.ibb.co/Yf7sWbq/IMG-20241220-145412-953.jpg" alt="logo" />
+    <div class="card-body">
+      <h2> Lovely Professional University </h2>
+      <p> 
+        Established: 2005 <br>
+        Area: Phagwara <br>
+        Highest Pck. : 42 LPA <br>
+        Average Pck. : 15 LPA
+      </p>
+    <a href="https://www.lpu.in/"> Read More... </a>
+</div>
+</div>
+</div>
+<div id="main">
+  <div class="card">
+    <img src="https://i.ibb.co/znGt3t3/IMG-20241220-145455-387.jpg" alt="logo" />
+    <div class="card-body">
+      <h2> Chandigarh University  </h2>
+      <p> 
+        Established: 2012 <br>
+        Area: Mohali <br>
+        Highest Pck. : 35 LPA <br>
+        Average Pck. : 7 LPA
+      </p>
+    <a href="https://www.cuchd.in/"> Read More... </a>
+</div>
+</div>
+</div>
+<div id="main">
+  <div class="card">
+    <img src="https://i.ibb.co/PzymBbq/IMG-20241220-145635-123.jpg" alt="logo" />
+    <div class="card-body">
+      <h2> Punjab Technical University </h2>
+      <p> 
+        Established: 1997 <br>
+        Area: Jalandhar <br>
+        Highest Pck. : 12 LPA <br>
+        Average Pck. : 4 LPA
+      </p>
+    <a href="https://ptu.ac.in/"> Read More... </a>
+</div>
+</div>
+</div>
+<div id="footer">
+  <a href="aboutme.html"> About me </a>
+  </div>
+</body>
+
+</html>
